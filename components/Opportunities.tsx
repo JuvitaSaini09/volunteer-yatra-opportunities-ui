@@ -3,6 +3,7 @@ import React, { useState } from "react";
 import SearchFilters from "./SearchFilters";
 import { CategoryType } from "@/types";
 import CategoryFilters from "./CategoryFilters";
+import OpportunityCards from "./OpportunityCards";
 
 const Opportunities = () => {
   const [selectedCategory, setSelectedCategory] =
@@ -16,6 +17,7 @@ const Opportunities = () => {
           setSelectedCategory={setSelectedCategory}
         />
         {/* list of opporunties */}
+        <OpportunityCards selectedCategory={selectedCategory} />
       </section>
     </div>
   );

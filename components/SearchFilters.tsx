@@ -4,7 +4,6 @@ import { Button } from "./ui/button";
 import { SearchIcon } from "lucide-react";
 import { Separator } from "./ui/separator";
 import SearchInput from "./SearchInput";
-import { Input } from "./ui/input";
 import MobileSearchBar from "./MobileSearchBar";
 
 interface SearchFormData {

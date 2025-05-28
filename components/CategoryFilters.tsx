@@ -40,8 +40,8 @@ const CategoryFilters: React.FC<CategoryFiltersProps> = ({
             <Image
               src={
                 selectedCategory === category
-                  ? "/images/category.svg"
-                  : "/images/inActiveCategory.svg"
+                  ? "/logos/category.svg"
+                  : "/logos/inActiveCategory.svg"
               }
               fill
               alt="category icon"
@@ -59,7 +59,7 @@ const CategoryFilters: React.FC<CategoryFiltersProps> = ({
         className="flex items-center justify-center gap-2.5 w-30 h-[50px] border border-[#ECECEC] rounded-[14px] bg-white hover:bg-white"
       >
         <div className="relative w-[26px] h-[26px]">
-          <Image src="/images/filter.svg" fill alt="filter" />
+          <Image src="/logos/filter.svg" fill alt="filter" />
         </div>
         <span className="font-bold text-[14px] text-font-primary">Filter</span>
       </Button>
