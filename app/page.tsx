@@ -1,5 +1,6 @@
+import Experiences from "@/components/Experiences";
 import Header from "@/components/Header";
-import SearchFilters from "@/components/SearchFilters";
+import Opportunities from "@/components/Opportunities";
 import { Tabs, TabsContent } from "@/components/ui/tabs";
 import { TabType } from "@/types";
 
@@ -10,13 +11,11 @@ const Home: React.FC = () => {
 
       <main className="pt-20">
         <TabsContent value={TabType.Opportunities}>
-          <SearchFilters />
+          <Opportunities />
         </TabsContent>
 
         <TabsContent value={TabType.Experiences}>
-          <section className="h-dvh flex justify-center mt-50">
-            <h3 className="text-2xl font-bold">Page under construction</h3>
-          </section>
+          <Experiences />
         </TabsContent>
       </main>
     </Tabs>
