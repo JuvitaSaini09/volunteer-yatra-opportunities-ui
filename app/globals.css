@@ -47,14 +47,14 @@
   --color-yellow-primary: #ffea35;
   --color-grey-primary: #d2d7e6;
   --color-gray-secondary: #d9d9d980;
-  --color-gray-tertiary: #6D758F;
+  --color-gray-tertiary: #6d758f;
   --color-blue-green: #114047;
-  --color-yellow-title:#dec647;
-  --color-yellow-tags:#E3BF00;
-  --color-gray-subtitle:#c5c5c5;
+  --color-yellow-title: #dec647;
+  --color-yellow-tags: #e3bf00;
+  --color-gray-subtitle: #c5c5c5;
   --color-slate-blue: rgba(47, 72, 88, 0.06);
   --color-peacock-green: rgba(17, 64, 71, 0.75);
-  --color-gray-cardbg:rgba(247,247,247,0.74);
+  --color-gray-cardbg: rgba(247, 247, 247, 0.74);
 }
 
 body {
@@ -137,6 +137,19 @@ body {
   body {
     @apply bg-background text-foreground;
   }
+}
+
+/* Font utility classes */
+.font-sansation {
+  font-family: var(--font-sansation), Arial, sans-serif;
+}
+
+.font-poppins {
+  font-family: var(--font-poppins), Arial, sans-serif;
+}
+
+.font-roboto {
+  font-family: var(--font-roboto), Arial, sans-serif;
 }
 
 .custom-tab-trigger {

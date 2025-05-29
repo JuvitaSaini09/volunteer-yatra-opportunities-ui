@@ -21,7 +21,7 @@ const SearchInput: React.FC<SearchInputProps> = ({
     </label>
     <input
       type="text"
-      className={`text-sm max-w-[218px] h-[21px] outline-none font-normal leading-normal w-full ${inputClassName}`}
+      className={`font-poppins text-sm max-w-[218px] h-[21px] outline-none font-normal leading-normal w-full ${inputClassName}`}
       value={value}
       onChange={onChange}
     />

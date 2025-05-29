@@ -37,11 +37,11 @@ const OpportunityDesktopCard = ({ opportunity }: OpportunityDesktopCard) => {
               width={10}
               alt="location"
             />
-            <span className="font-bold text-xs tracking-[0.24px] leading-[13.2px] text-yellow-title font-['Sansation',Helvetica]">
+            <span className="font-bold text-xs tracking-[0.24px] leading-[13.2px] text-yellow-title ">
               {opportunity.state}
             </span>
           </div>
-          <p className="font-['Sansation',Helvetica] text-font-primary text-base leading-4">
+          <p className=" text-font-primary text-base leading-4">
             <span className="leading-[22.4px] font-normal">
               Volunteer In {opportunity.location} as{" "}
             </span>
@@ -52,7 +52,7 @@ const OpportunityDesktopCard = ({ opportunity }: OpportunityDesktopCard) => {
         </div>
         <div className="flex flex-col items-start gap-2">
           <div className="flex items-center gap-[6px]">
-            <span className="font-['Sansation',Helvetica] font-normal text-gray-subtitle text-[11px] ">
+            <span className=" font-normal text-gray-subtitle text-[11px] ">
               {opportunity.hoursPerWeek}
             </span>
             {opportunity.roles.map((role) => (
@@ -61,19 +61,19 @@ const OpportunityDesktopCard = ({ opportunity }: OpportunityDesktopCard) => {
                 className="flex justify-center items-center gap-[5px] flex-nowrap"
               >
                 <div className="bg-gray-subtitle h-[3px] w-[3px] rounded-full"></div>
-                <p className="font-['Sansation',Helvetica] font-normal text-gray-subtitle text-[11px] tracking-[0.11px] leading-[12.1px]">
+                <p className=" font-normal text-gray-subtitle text-[11px] tracking-[0.11px] leading-[12.1px]">
                   {role}
                 </p>
               </div>
             ))}
           </div>
           <div className="flex items-center gap-[6px]">
-            <span className="font-['Sansation',Helvetica] font-normal text-gray-subtitle text-[11px] ">
+            <span className=" font-normal text-gray-subtitle text-[11px] ">
               {opportunity.minimumDuration}
             </span>
             <div className="flex justify-center items-center gap-[5px] flex-nowrap">
               <div className="bg-gray-subtitle h-[3px] w-[3px] rounded-full"></div>
-              <p className="font-['Sansation',Helvetica] font-normal text-gray-subtitle text-[11px] tracking-[0.11px] leading-[12.1px]">
+              <p className=" font-normal text-gray-subtitle text-[11px] tracking-[0.11px] leading-[12.1px]">
                 {opportunity.accommodation}
               </p>
             </div>
@@ -88,7 +88,7 @@ const OpportunityDesktopCard = ({ opportunity }: OpportunityDesktopCard) => {
               alt="hand"
               className="w-[9.09px] h-2.5"
             />
-            <span className="font-['Roboto',Helvetica] font-medium text-[11px] tracking-[0.22px] leading-[12.1px]">
+            <span className="font-roboto font-medium text-[11px] tracking-[0.22px] leading-[12.1px]">
               {opportunity.tag}
             </span>
           </div>{" "}
