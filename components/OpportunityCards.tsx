@@ -18,7 +18,7 @@ const OpportunityCards: React.FC<OpportunityCardsProps> = ({
   return (
     <div>
       <section className="hidden sm:flex justify-center items-center mt-5 mb-2">
-        <div className="flex justify-center  items-center gap-5 flex-wrap ">
+        <div className="flex justify-center  items-center gap-5 flex-wrap max-w-[1280px]">
           {filteredOpportunities.length === 0 && (
             <div className="flex justify-center items-center mt-28 gap-2">
               <p className="leading-[22.4px] text-2xl font-bold">
