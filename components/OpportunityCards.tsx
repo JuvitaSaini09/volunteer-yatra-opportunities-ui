@@ -2,7 +2,7 @@ import { volunteerOpportunities } from "@/data/opportunities";
 import React from "react";
 import { BotMessageSquare } from "lucide-react";
 import { CategoryType } from "@/types";
-import OpportunityDesktopCard from "./OpportunitySingleCard";
+import OpportunityDesktopCard from "./OpportunityDesktopCard";
 import OpportunityMobileCard from "./OpportunityMobileCard";
 
 interface OpportunityCardsProps {

@@ -12,7 +12,7 @@ interface OpportunityDesktopCard {
 const OpportunityDesktopCard = ({ opportunity }: OpportunityDesktopCard) => {
   return (
     <Card className="border-none shadow-[0px_2px_7px_rgba(0,0,0,0.07)] flex flex-col gap-0 w-[280px] h-[374px] p-0 rounded-[8px] overflow-hidden">
-      <Link href={`$/opportunity/${opportunity.id}`}>
+      <Link href={`/opportunity/${opportunity.id}`}>
         {/* Image section */}
         <div className="relative w-full h-[200px] aspect-[280/200]">
           <Image src={opportunity.image} fill alt="Opportunity image" />
