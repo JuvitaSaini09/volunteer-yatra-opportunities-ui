@@ -1,16 +1,4 @@
-export interface VolunteerOpportunity {
-  id: number;
-  state: string;
-  location: string;
-  skills: string;
-  hoursPerWeek: string;
-  roles: string[];
-  minimumDuration: string;
-  accommodation: string;
-  tag: string;
-  image: string;
-  isNew: boolean;
-}
+import { VolunteerOpportunity } from "@/types";
 
 export const volunteerOpportunities: VolunteerOpportunity[] = [
   {
