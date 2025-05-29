@@ -1,7 +1,10 @@
 // app/layout.tsx
+import { Tabs } from "@/components/ui/tabs";
 import "./globals.css";
 import { Poppins, Roboto } from "next/font/google";
 import localFont from "next/font/local";
+import { TabType } from "@/types";
+import Header from "@/components/Header";
 
 const poppins = Poppins({
   subsets: ["latin"],
@@ -44,7 +47,12 @@ export default function RootLayout({
       lang="en"
       className={`${poppins.variable} ${roboto.variable} ${sansation.variable}`}
     >
-      <body className="font-sansation">{children}</body>
+      <body className="font-sansation">
+        <Tabs defaultValue={TabType.Opportunities} className="w-full">
+          <Header />
+          {children}
+        </Tabs>
+      </body>
     </html>
   );
 }

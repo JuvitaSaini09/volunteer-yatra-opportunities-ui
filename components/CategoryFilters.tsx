@@ -22,6 +22,7 @@ const CategoryFilters: React.FC<CategoryFiltersProps> = ({
   selectedCategory,
   setSelectedCategory,
 }) => (
+  
   <div className="hidden lg:flex justify-between h-[70px] max-w-[1185px] mx-auto">
     <div className="flex gap-[1px]">
       {categories.map((category) => (
