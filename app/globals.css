@@ -50,8 +50,11 @@
   --color-gray-tertiary: #6D758F;
   --color-blue-green: #114047;
   --color-yellow-title:#dec647;
+  --color-yellow-tags:#E3BF00;
   --color-gray-subtitle:#c5c5c5;
   --color-slate-blue: rgba(47, 72, 88, 0.06);
+  --color-peacock-green: rgba(17, 64, 71, 0.75);
+  --color-gray-cardbg:rgba(247,247,247,0.74);
 }
 
 body {

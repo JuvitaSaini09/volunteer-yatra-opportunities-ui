@@ -61,7 +61,7 @@ const SearchFilters: React.FC = () => {
               setSearchData({ ...searchData, skill: e.target.value })
             }
             className="w-[150px]"
-            inputClassName="text-[#114047]"
+            inputClassName="text-blue-green"
           />
 
           <Separator
