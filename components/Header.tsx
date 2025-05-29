@@ -6,7 +6,7 @@ import TabsNav from "./TabsNav";
 
 const Header: React.FC = () => {
   return (
-    <header className="h-20 fixed top-0 w-full z-50">
+    <header className="h-20 fixed top-0 w-full z-50 bg-white">
       <nav className="h-full px-5 flex justify-between items-center max-w-[1440px] mx-auto">
         <Logo />
         <TabsNav />

@@ -23,7 +23,7 @@ export const volunteerOpportunities: VolunteerOpportunity[] = [
     minimumDuration: "At least 4 weeks",
     accommodation: "Dom Bed",
     tag: "Sustainability",
-    image: "/images/image.png",
+    image: "/images/image.svg",
     isNew: true,
   },
   {
@@ -36,8 +36,8 @@ export const volunteerOpportunities: VolunteerOpportunity[] = [
     minimumDuration: "At least 4 weeks",
     accommodation: "Dom Bed",
     tag: "Sustainability",
-    image: "/images/image.png",
-    isNew: true,
+    image: "/images/image1.svg",
+    isNew: false,
   },
   {
     id: 3,
@@ -49,7 +49,7 @@ export const volunteerOpportunities: VolunteerOpportunity[] = [
     minimumDuration: "At least 4 weeks",
     accommodation: "Dom Bed",
     tag: "Sustainability",
-    image: "/images/image.png",
+    image: "/images/image2.svg",
     isNew: true,
   },
   {
@@ -62,7 +62,7 @@ export const volunteerOpportunities: VolunteerOpportunity[] = [
     minimumDuration: "At least 4 weeks",
     accommodation: "Dom Bed",
     tag: "Sustainability",
-    image: "/images/image.png",
+    image: "/images/image3.svg",
     isNew: true,
   },
   {
@@ -75,7 +75,7 @@ export const volunteerOpportunities: VolunteerOpportunity[] = [
     minimumDuration: "At least 4 weeks",
     accommodation: "Dom Bed",
     tag: "Sustainability",
-    image: "/images/image.png",
+    image: "/images/image4.svg",
     isNew: true,
   },
   {
@@ -88,7 +88,7 @@ export const volunteerOpportunities: VolunteerOpportunity[] = [
     minimumDuration: "At least 4 weeks",
     accommodation: "Dom Bed",
     tag: "Sustainability",
-    image: "/images/image.png",
+    image: "/images/image.svg",
     isNew: true,
   },
   {
@@ -101,7 +101,7 @@ export const volunteerOpportunities: VolunteerOpportunity[] = [
     minimumDuration: "At least 4 weeks",
     accommodation: "Dom Bed",
     tag: "Sustainability",
-    image: "/images/image.png",
+    image: "/images/image1.svg",
     isNew: true,
   },
   {
@@ -114,7 +114,7 @@ export const volunteerOpportunities: VolunteerOpportunity[] = [
     minimumDuration: "At least 4 weeks",
     accommodation: "Dom Bed",
     tag: "Sustainability",
-    image: "/images/image.png",
+    image: "/images/image2.svg",
     isNew: true,
   },
 ];
